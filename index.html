@@ -10,28 +10,34 @@
 </head>
 <body>
   <section class="news">
-    <titulo-dinamico titulo="One piece na Netflix"></titulo-dinamico>
-    <card-news></card-news>
-    <h1>Noticias</h1>
-    <div class="news-card">
-      <div class="card-left">
-        <img 
-          class="card-image" 
-          src="assets/one-piece-live-action.jpg" 
-          alt="Wallpaper do live action de One Piece">
-      </div>
-      <div class="card-right">
-        <span class="card-type">Cultura pop</span>
-        <p class="card-text">
-          Até onde a série de One Piece adaptou do anime e mangá?
-        </p>
-        <hr>
-        <div class="card-info">
-          <span class="card-author">Por Vítor Arimatéa</span>
-          <span class="card-date">01/09/2023 às 9:51</span>
-        </div>
-      </div>
-    </div>
+    <h1>Shadow DOM Example</h1>
+      <card-news 
+        imageLink="/assets/one-piece-live-action.jpg"
+        type="Cultura pop"
+        text="Até onde a série de One Piece adaptou do anime e mangá?"
+        author="Vítor Arimatéa"
+        date="01/09/2023 às 9:51"
+      >
+      </card-news>
+
+      <card-news 
+        imageLink="/assets/red-dead-3.jpg"
+        type="Games"
+        text="Red Dead Redemption 3 está em produção, reporta insider"
+        author="Vítor Arimatéa"
+        date="04/09/2023 às 11:34"
+      >
+      </card-news>
+
+      <card-news 
+        imageLink="/assets/gta-vi-wallpaper.png"
+        type="Games"
+        text="PARA TUDO! GTA 6 recebe DATA em suposto áudio vazado"
+        author="Vítor Arimatéa"
+        date="04/09/2023 às 14:12"
+      >
+      </card-news>
+    
   </section>
 </body>
 </html>
